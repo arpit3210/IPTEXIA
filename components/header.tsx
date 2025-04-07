@@ -10,6 +10,7 @@ import { UserNav } from "@/components/user-nav"
 import { Menu } from "lucide-react"
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet"
 import { useState, useEffect } from "react"
+import Image from "next/image"
 
 export function Header() {
   const pathname = usePathname()
@@ -44,7 +45,7 @@ export function Header() {
       <div className="container flex h-16 items-center justify-between">
         <div className="flex items-center gap-6 md:gap-10">
           <Link href="/" className="flex items-center space-x-2">
-            <span className="text-xl font-bold">IPTEXIA</span>
+            <Image src="/images/web-logo.png" alt="IPTEXIA Logo" width={130} height={130} className="rounded-full" />
           </Link>
 
           {/* Desktop Navigation */}
@@ -99,4 +100,3 @@ export function Header() {
     </header>
   )
 }
-
