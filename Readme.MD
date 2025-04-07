@@ -138,11 +138,11 @@ ipchain/
 - Update documentation accordingly
 - Ensure code passes all lint and type checks
 
-## � Project Statistics
+## � Project 
 
-- 🔒 500K+ Protected Digital Assets
-- 💰 $10M+ Royalties Distributed
-- 🎯 99.9% IP Violation Detection Accuracy
+- 🔒Protected Digital Assets
+- 💰  Royalties Distributed
+- 🎯 IP Violation Detection Accuracy
 
 ## �📄 License
 
@@ -157,9 +157,9 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 ## � Contact & Support
 
-- **Project Website**: [https://iptexia.com](https://iptexia.com)
-- **GitHub Repository**: [https://github.com/yourusername/iptexia](https://github.com/yourusername/iptexia)
-- **Email**: support@iptexia.com
+
+- **GitHub Repository**: [https://github.com/arpit3210/IPTEXIA.git](https://github.com/arpit3210/IPTEXIA)
+- **Email**: arpitsinghthakur321@gmail.com
 
 ---
 
