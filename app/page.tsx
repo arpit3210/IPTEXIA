@@ -17,8 +17,24 @@ export default function Home() {
     <PageTransition>
       <div className="flex flex-col min-h-[calc(100vh-4rem)]">
         {/* Hero Section - Refined */}
-        <section className="w-full py-16 md:py-24 lg:py-32 xl:py-40 bg-gradient-to-b from-background via-background to-background/80 relative overflow-hidden">
-          {/* Background elements */}
+
+
+
+   {/* Background elements */}
+   <video 
+            autoPlay 
+            loop 
+            muted 
+            playsInline 
+            className="absolute inset-0 w-full h-full object-cover opacity-25 z-0"
+          >
+            <source src="/Videos/vid12.mp4" type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
+
+        <section className="w-full py-16 md:py-24 lg:py-32 xl:py-40  relative overflow-hidden">
+       
+
           <div className="absolute inset-0 overflow-hidden">
             <motion.div
               className="absolute top-1/4 left-1/4 w-[500px] h-[500px] rounded-full bg-primary/5 blur-3xl"
@@ -115,8 +131,20 @@ export default function Home() {
         <FeaturedVideoSection />
 
         {/* Features Section */}
-        <section id="features" className="w-full py-12 md:py-24 lg:py-32 bg-muted/50">
-          <div className="container px-4 md:px-6">
+        <section id="features" className="w-full py-12 md:py-24 lg:py-32 relative overflow-hidden">
+          {/* Video Background */}
+          <video 
+            autoPlay 
+            loop 
+            muted 
+            playsInline 
+            className="absolute inset-0 w-full h-full object-cover opacity-20 z-0"
+          >
+            <source src="/Videos/vid12.mp4" type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
+
+          <div className="container px-4 md:px-6 relative z-10">
             <StaggerContainer className="flex flex-col items-center justify-center space-y-4 text-center">
               <AnimatedItem>
                 <div className="space-y-2">
@@ -230,4 +258,3 @@ export default function Home() {
     </PageTransition>
   )
 }
-

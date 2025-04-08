@@ -41,9 +41,9 @@ export function Header() {
   ]
 
   return (
-    <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
-      <div className="container flex h-16 items-center justify-between">
-        <div className="flex items-center gap-6 md:gap-10">
+    <header className="sticky flex justify-center items-center top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
+      <div className="container w-[100vw] flex h-16 items-center justify-between">
+        <div className="flex w-[100vw] items-center gap-6 md:gap-10">
           <Link href="/" className="flex items-center space-x-2">
             <Image src="/images/web-logo.png" alt="IPTEXIA Logo" width={130} height={130} className="rounded-full" />
           </Link>
