@@ -184,5 +184,13 @@ export default function CreateLicensePage() {
                       </Select>
                       <FormMessage />
                     </FormItem>
-                  )}\
-
+                  )}
+                />
+              </form>
+            </Form>
+          </CardContent>
+        </Card>
+      )}
+    </div>
+  )
+}
